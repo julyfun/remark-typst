@@ -11,6 +11,7 @@
     "hast-util-from-html-isomorphic": "^2.0.0",
     "hast-util-to-text": "^4.0.0",
     "katex": "^0.16.0",
+    "rehype-document": "^7.0.3",
     "unist-util-visit-parents": "^6.0.0",
     "vfile": "^6.0.0"
   },

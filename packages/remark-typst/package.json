@@ -1,0 +1,39 @@
+{
+  "author": "julyfun",
+  "bugs": "https://github.com/julyfun/remark-tex-typst/issues",
+  "dependencies": {
+    "@types/mdast": "^4.0.0",
+    "mdast-util-math": "^3.0.0",
+    "micromark-extension-math": "^3.0.0",
+    "unified": "^11.0.0"
+  },
+  "description": "remark plugin to parse and stringify math with Typst and LaTeX support",
+  "exports": "./index.js",
+  "files": [
+    "index.d.ts.map",
+    "index.d.ts",
+    "index.js",
+    "lib/"
+  ],
+  "keywords": [
+    "typst",
+    "latex",
+    "markdown",
+    "math",
+    "mdast",
+    "plugin",
+    "remark",
+    "remark-plugin",
+    "unified"
+  ],
+  "license": "MIT",
+  "name": "remark-typst",
+  "repository": "https://github.com/julyfun/remark-tex-typst/tree/main/packages/remark-typst",
+  "scripts": {
+    "test-api": "node --conditions development test.js",
+    "test": "npm run test-api"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "1.0.0"
+}
