@@ -1,17 +1,11 @@
 {
-  "author": "Junyoung Choi <fluke8259@gmail.com> (https://rokt33r.github.io)",
-  "bugs": "https://github.com/remarkjs/remark-math/issues",
-  "contributors": [
-    "Daniel Perez Alvarez <unindented@gmail.com>",
-    "John Jeng <j3@sagemath.com>",
-    "Junyoung Choi <fluke8259@gmail.com> (https://rokt33r.github.io)",
-    "Marc-Antoine Ouimet <ouimetmarcantoine@gmail.com>",
-    "Rongjian Zhang <pd4d10@gmail.com>",
-    "Taniguchi Masaya <mew@cat.ovh>",
-    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
-    "Victor Felder <victor@draft.li>",
-    "Xiaoru Li <dev@xiaoru.li>"
-  ],
+  "name": "remark-typst",
+	"license": "MIT",
+  "version": "0.1.0",
+  "author": "julyfun <julyfun.collect@outlook.com>",
+	"description": "Typst math typesetting for web.",
+  "bugs": "https://github.com/julyfun/remark-typst/issues",
+  "contributors": [],
   "devDependencies": {
     "@types/node": "^22.0.0",
     "c8": "^10.0.0",
@@ -29,7 +23,6 @@
     "unist-util-remove-position": "^5.0.0",
     "xo": "^0.60.0"
   },
-  "name": "remark-math",
   "prettier": {
     "bracketSpacing": false,
     "semi": false,
@@ -44,7 +37,7 @@
       "remark-preset-wooorm"
     ]
   },
-  "repository": "https://github.com/remarkjs/remark-math",
+  "repository": "https://github.com/julyfun/remark-typst",
   "scripts": {
     "build": "tsc --build --clean && tsc --build && type-coverage",
     "format": "remark --frail --output --quiet -- . && prettier --log-level warn --write -- . && xo --fix",
@@ -56,18 +49,12 @@
     "atLeast": 100,
     "ignoreFiles#": "needed `any`s for `mathjax` types",
     "ignoreFiles": [
-      "packages/rehype-mathjax/lib/create-plugin.d.ts",
-      "packages/rehype-mathjax/lib/create-renderer.d.ts",
-      "packages/rehype-mathjax/lib/create-renderer.js"
     ],
     "strict": true
   },
   "type": "module",
   "workspaces": [
-    "packages/rehype-katex/",
-    "packages/rehype-mathjax/",
     "packages/rehype-typst/",
-    "packages/remark-math/",
     "packages/remark-typst/"
   ],
   "xo": {

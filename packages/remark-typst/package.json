@@ -1,6 +1,6 @@
 {
   "author": "julyfun",
-  "bugs": "https://github.com/julyfun/remark-tex-typst/issues",
+  "bugs": "https://github.com/julyfun/remark-typst/issues",
   "dependencies": {
     "@types/mdast": "^4.0.0",
     "mdast-util-math": "^3.0.0",
@@ -35,5 +35,5 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "1.0.0"
+  "version": "0.1.0"
 }
